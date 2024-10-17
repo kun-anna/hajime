@@ -13,8 +13,8 @@
 <header></header>
 <article></article>
     <form action="" method="get" name="时间">
-        <!-- <input type="date"> -->
-        <input type="datetime-local">
+        <input type="date" name="时间">
+        <!-- <input type="datetime-local"> -->
         <table border="2">
             <tr>
                 <th rowspan="1">对象</th>
@@ -22,37 +22,37 @@
             </tr>
             <tr>
                 <td>地点：</td>
-                <td> <input type="text" name="" id=""></td>
+                <td> <input type="text" name="地点"></td>
             </tr>
             <tr>
                 <td>人物：</td>
-                <td> <input type="text" maxlength="" minlength=""></td>
+                <td> <input type="text" name="人物"></td>
             </tr>
              <tr>
                 <td>事件：</td>
-                <td> <input type="text"></td>
+                <td> <input type="text" name="事件"></td>
              </tr>
              <tr>
                 <td>物品：</td>
-                <td> <input type="text"></td>
+                <td> <input type="text" name="物品"></td>
             </tr>
         </table>
         <br>
     <div>
         <span>补充内容：</span>
-        <input type="text" name="" id="">
+        <input type="text" name="补充内容">
     </div>
         <br>
         <!-- <input type="button" name="" value=""> -->
         <span>专注：</span>
-        <input type="range" name="专注度" min="0" max="10">
+        <input type="range" name="专注" min="0" max="10">
         <br>
         <span>能量：</span>
         <input type="range" name="能量" min="-5" max="5">
         <br>
         <span>心流：</span>
-        <input type="radio" name="心流" value="是">是
-        <input type="radio" name="心流" value="否">否
+        <input type="radio" name="心流" value="1">是
+        <input type="radio" name="心流" value="0">否
         <hr>
         <input type="submit" value="提交">
     </form>
